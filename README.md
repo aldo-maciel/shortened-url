@@ -1,8 +1,8 @@
-# ComicClan - Node.js API Specification
+# Node.js API Specification
 
 ### Description
 
-ComicClan, an online community of comic book enthusiasts, has contacted you to help them develop a new REST API service for their new social network of comic book lovers. 
+An online community of comic book enthusiasts, has contacted you to help them develop a new REST API service for their new social network of comic book lovers. 
 
 They have a front-end and mobile app already in development, but are looking for a developer to outline, plan and build the REST API service and DB to support their desired app features.
 
