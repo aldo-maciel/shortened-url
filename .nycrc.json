@@ -1,0 +1,14 @@
+{
+  "extension": [
+    ".ts"
+  ],
+  "reporter": [
+    "lcov",
+    "text"
+  ],
+  "all": true,
+  "check-coverage": true,
+  "include": [
+    "src/**/"
+  ]
+}
