@@ -16,15 +16,11 @@
         "resolveJsonModule": true,
         "types": [
             "webpack-env",
-            "mocha",
             "jest"
         ],
         "paths": {
             "@/*": [
                 "src/*"
-            ],
-            "assets/*": [
-                "src/assets/*"
             ]
         },
         "lib": [
@@ -36,8 +32,7 @@
     },
     "include": [
         "src/**/*.ts",
-        "src/**/*.vue",
-        "tests/**/*.ts"
+        "src/**/*.vue"
     ],
     "exclude": [
         "node_modules"

@@ -1,3 +1,3 @@
 module.exports = {
-    presets: ['@vue/cli-plugin-babel/preset']
+    presets: ['@babel/preset-react', '@vue/cli-plugin-babel/preset']
 };

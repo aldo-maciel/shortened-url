@@ -2,14 +2,15 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
-    rootDir: 'src',
-    moduleFileExtensions: ['js', 'ts', 'json', 'vue'],
+    moduleFileExtensions: ['vue', 'ts', 'tsx', 'js', 'jsx', 'json', 'node'],
     transform: {
-        '.*\\.tsx?$': 'ts-jest'
+        // process `*.vue` files with `vue-jest`
+        '.*\\.tsx?$': 'ts-jest',
+        '.*\\.(vue)$': 'vue-jest'
     },
-    testURL: 'http://localhost/',
-    collectCoverage: true,
-    clearMocks: true,
-    coverageDirectory: 'coverage',
-    testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$'
+    moduleNameMapper: {
+        '@/(.*)': ['<rootDir>/src/$1'],
+        '^vue$': '<rootDir>/node_modules/vue/dist/vue.js',
+        '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub'
+    }
 };
