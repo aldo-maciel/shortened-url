@@ -9,8 +9,7 @@ export default class ButtonController extends Vue {
     @Prop({ default: ESize.NORMAL }) size!: ESize;
     @Prop({ default: false }) disabled!: boolean;
 
-    @Emit('click')
     onClick(): void {
-        /*onclick event*/
+        !this.disabled && this.$emit('click');
     }
 }

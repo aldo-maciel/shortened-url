@@ -5,7 +5,7 @@ export const properties = {
     mongo: {
         host: process.env.MONGODB_HOST || 'localhost',
         port: process.env.MONGODB_PORT || 27017,
-        base: process.env.MONGODB_BASE || 'shortened-test'
+        base: process.env.MONGODB_BASE || 'shortened'
     },
     log: {
         level: process.env.LOG_LEVEL || 'INFO',
