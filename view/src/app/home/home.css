@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 20rem;
+}
+
+.home .generated {
+    background-color: rgba(216, 225, 231, .1);
+    border: .1rem solid rgba(216, 225, 231, 1);
+    border-radius: .5rem;
+}
+
+.home .row {
+    display: flex;
+}
+
+.home .column {
+    align-items: center;
+    display: flex;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.home .grow-1 {
+    flex: 1;
+}
+
+.home .grow-2 {
+    flex: 2;
+}
+
+.home .grow-3 {
+    flex: 3;
+}
+
+.home .grow-4 {
+    flex: 4;
+}
+
+.home .grow-5 {
+    flex: 5;
+}
+
