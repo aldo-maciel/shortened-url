@@ -73,7 +73,7 @@ POST - http://localhost:3001/api/v1/shortened-url
     }
     ```
 ---  
-##### Login with crated user
+##### Login with crated URL
 GET - http://localhost:3001/api/v1/shortened-url
 - params
     ```text
