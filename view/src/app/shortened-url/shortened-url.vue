@@ -4,7 +4,7 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>{{ $t('shortenedUrl.createdAt') }}</th>
+                    <th class="created-at">{{ $t('shortenedUrl.createdAt') }}</th>
                     <th>{{ $t('shortenedUrl.short') }}</th>
                     <th>{{ $t('shortenedUrl.original') }}</th>
                 </tr>
@@ -18,7 +18,7 @@
             </tbody>
             <tbody v-if="rows.length > 0">
                 <tr v-for="row in rows" :key="row._id">
-                    <td>{{ $d(new Date(), 'long') }}</td>
+                    <td class="created-at">{{ $d(new Date(), 'long') }}</td>
                     <td>
                         <a :href="row.originalUrl" target="_blank">{{ row.shortUrl }}</a>
                     </td>

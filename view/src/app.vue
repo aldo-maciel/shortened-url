@@ -2,7 +2,9 @@
     <div class="app">
         <navbar />
         <transition :name="transitionName" mode="out-in">
-            <router-view></router-view>
+            <keep-alive>
+                <router-view></router-view>
+            </keep-alive>
         </transition>
     </div>
 </template>
