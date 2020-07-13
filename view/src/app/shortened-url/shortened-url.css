@@ -1,0 +1,4 @@
+.shortened-url {
+    display: flex;
+    flex-wrap: wrap;
+}
