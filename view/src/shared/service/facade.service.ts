@@ -5,7 +5,7 @@ export class ServiceFacade {
     protected getUrl(url: string): string {
         const base = '/api/v1/';
         if (process.env.NODE_ENV === 'production') {
-            return base;
+            return `${base}${url}`;
         }
         return `http://localhost:3001${base}${url}`;
     }
@@ -24,7 +24,6 @@ export class ServiceFacade {
 
             return data;
         } catch (error) {
-            console.error('Some error occurred with error:', error);
             toastr.error(error.message || 'An operation occurred with error!', 'Error');
         }
         return Promise.reject<T>();

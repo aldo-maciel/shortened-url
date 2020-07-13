@@ -9,5 +9,5 @@ Vue.config.productionTip = false;
 new Vue({
     router,
     i18n,
-    render: ren => ren(App)
+    render: (ren) => ren(App)
 }).$mount('#app');

@@ -1,10 +1,5 @@
 <template>
-    <button
-        class="btn"
-        :class="`btn-${variation} btn-${size} ${disabled ? 'disabled' : ''}`"
-        :disable="disabled"
-        @click="onClick"
-    >
+    <button class="btn" :class="`btn-${variation} btn-${size} ${disabled ? 'disabled' : ''}`" :disable="disabled" @click="onClick">
         <span class="btn-text">
             <slot></slot>
         </span>

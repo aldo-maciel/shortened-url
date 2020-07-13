@@ -5,6 +5,7 @@
             <div class="row">
                 <div class="column grow-1">
                     <al-input
+                        data-original-url
                         :label="$t('home.typeUrl')"
                         v-model="originalUrl"
                         :pattern="urlPattern"
