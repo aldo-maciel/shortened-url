@@ -70,7 +70,7 @@ html {
     display: flex;
     flex: auto;
     justify-content: center;
-    margin: -7rem 10rem;
+    margin: -7rem 5%;
     padding: 5rem;
     overflow: auto;
     position: relative;
@@ -87,6 +87,6 @@ html {
 .drain-enter,
 .drain-leave-to,
 .slither-enter,
-.slither-leave-to  {
+.slither-leave-to {
     transform: translateY(200%);
 }
