@@ -1,0 +1,35 @@
+{
+    "general": {
+        "noResults": "no results found",
+        "success": "success",
+        "successOperation": "operation performed successfully",
+        "error": "error",
+        "errorOperation": "an error occurred in the operation",
+        "copy": "copy"
+    },
+    "navBar": {
+        "history": "history",
+        "generate": "generate"
+    },
+    "home": {
+        "title": "Generate",
+        "invalidaUrl": "Invalid Url",
+        "generate": "generate",
+        "typeUrl": "type or paste an url here"
+    },
+    "shortenedUrl": {
+        "title": "Historic",
+        "short": "short",
+        "original": "original",
+        "createdAt": "created"
+    },
+    "pagination": {
+        "showing": "showing",
+        "from": "from",
+        "until": "until",
+        "first": "first",
+        "last": "last",
+        "next": "next",
+        "previous": "previous"
+    }
+}
